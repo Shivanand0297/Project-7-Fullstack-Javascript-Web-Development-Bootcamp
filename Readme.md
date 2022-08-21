@@ -1,6 +1,6 @@
 # Fullstack Javascript Web Development Bootcamp (iNeuron)
 ## Name: Shivanand Prajapati
-## Project-6: Product Home Page
+## Project-7: Product Home Page
 ### Learnings:
 
 - How to handle svg image.
