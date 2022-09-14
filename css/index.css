@@ -18,11 +18,11 @@ nav {
 }
 nav .logo{
     display: block;
-    width: 8%;
+    width: 100px;
 }
 nav .social-logo{
     display: block;
-    width: 20%;
+    width: 210px;
 }
 nav .nav-items{
     display: flex;
@@ -93,6 +93,7 @@ nav .nav-items{
     border: none;
     width: 150px;
     height: 50px;
+    padding: 15px;
     border-radius:  50px;
     background-color: #FE5E35;
     color: #FFFFFF;
@@ -174,6 +175,7 @@ nav .nav-items{
     border: none;
     width: 150px;
     height: 50px;
+    padding: 15px;
     border-radius:  50px;
     background-color: #FE5E35;
     color: #FFFFFF;
@@ -186,6 +188,74 @@ nav .nav-items{
     cursor: pointer;
     font-style: bold;
 }
+
+/* media queries for responsiveness */
+
+@media screen and (max-width:870px) {
+    .intro-section{
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-section{
+        margin-left: 25%;
+    }
+    .left-section{
+        margin: 90px 50px;
+    }
+}
+
+/* mobile responsive */
+
+@media screen and (max-width:426px) {
+    nav .nav-items{
+        display: none;
+    }
+    nav{
+        margin: 20px;
+    }
+    nav .logo{
+        width: 60px;
+    }
+    .right-section{
+        margin-left: 40%;
+    }
+    .headphone-div .headphones {
+        height: 260px;
+        position: relative;
+        bottom: 40px;
+        right: 47px;
+        z-index: -1;
+    }
+    .headphone-div .discount {
+        height: 85px;
+        top: 215px;
+        right: 105px;
+    }
+    .headphone-div .discount-content {
+        top: 192px;
+        right: 176px;
+    }
+    .discount-content h4 {
+        font-size: 11px;
+    }
+    .discount-content h1 {
+        font-size: 25px;
+    }
+    .dots {
+        margin-top: -50px;
+        margin-left: 20px;
+    }
+    .right-section .action-btn {
+        margin-left: 11px;
+    }    
+
+}
+
+
+
+
+
 /* 
 -time taken: 5hrs
 learnings: 
